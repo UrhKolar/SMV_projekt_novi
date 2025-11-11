@@ -1,2 +1,3 @@
-# POROCILO
-Tukaj notri lahko pisemo svoja porocila kaj smo delali.
+# SKUPNI BRANCH 
+Supni branch za porocila in ostale skupne zadeve.
+
