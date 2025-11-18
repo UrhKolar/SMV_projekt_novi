@@ -270,7 +270,7 @@ INSERT INTO `uporabniki` (`id`, `uporabnisko_ime`, `email`, `geslo`, `tip_uporab
 (10, 'ucenec4', 'eva.kos@solski-sistem.si', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'ucenec', 'Eva', 'Kos', '2025-09-06 14:05:02', 1),
 (11, 'ucenec5', 'jan.vesel@solski-sistem.si', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'ucenec', 'Jan', 'Vesel', '2025-09-06 14:05:02', 1),
 (12, 'klemen', 'klemenrozic007@gmail.com', '$2y$10$SvJgs0jkHg.m3KIOG2kuO.mHKELtg3eWp1z9F8FkzuFgtCQOkmCHe', 'ucenec', 'klemen', 'rozic', '2025-09-08 18:41:51', 1),
-(21, 'admin', 'admin@example.com', '$2y$10$/Bwx5K/BztTp8F8OI3GeEOTp0fU6GppOQGBelo20FDUAH2Br4rHaW', 'admin', 'Urh', 'Admin', '2025-09-08 19:23:06', 1)
+(21, 'admin', 'admin@example.com', '$2y$10$/Bwx5K/BztTp8F8OI3GeEOTp0fU6GppOQGBelo20FDUAH2Br4rHaW', 'admin', 'Urh', 'Admin', '2025-09-08 19:23:06', 1),
 (22, 'ucitelj', 'ucitelj@example.com', '$2y$10$b6WTE0IJmO16wPmLDqfgZuC.h.j40lrGxwAe.gJf6h872uQbPOHwm', 'ucitelj', 'Tina', 'Ucitelj', '2025-09-08 19:23:06', 1);
 
 --
