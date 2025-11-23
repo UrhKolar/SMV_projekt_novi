@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/includes/auth_solski.php';
 $user = current_user_solski();
-if (!$user) { header('Location: solski_login.php'); exit; }
+if (!$user) { header('Location: index.php'); exit; }
 
 $role = $user['tip_uporabnika'];
 ?>

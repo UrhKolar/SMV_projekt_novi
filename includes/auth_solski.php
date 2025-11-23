@@ -49,9 +49,17 @@ function current_user_solski(): ?array {
 }
 
 function require_role_solski(string $role): void {
-    $currentRole = $_SESSION['solski_user']['tip_uporabnika'] ?? $_SESSION['solski_user_role'] ?? null;
+    // First check if user is logged in
+    $user = current_user_solski();
+    if (!$user) {
+        header('Location: index.php');
+        exit;
+    }
+    
+    // Then check if user has the required role
+    $currentRole = $user['tip_uporabnika'] ?? $_SESSION['solski_user_role'] ?? null;
     if ($currentRole !== $role) {
-        header('Location: solski_login.php');
+        header('Location: index.php');
         exit;
     }
 }

@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <button type="submit" class="btn-submit">Registracija</button>
             </form>
             <div class="auth-footer">
-                Že imate račun? <a href="solski_login.php">Prijava</a>
+                Že imate račun? <a href="index.php">Prijava</a>
             </div>
         </div>
     </div>

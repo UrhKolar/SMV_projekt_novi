@@ -2,7 +2,7 @@
 require_once __DIR__ . '/includes/auth_solski.php';
 $user = current_user_solski();
 if (!$user) {
-    header('Location: solski_login.php');
+    header('Location: index.php');
     exit;
 }
 require_role_solski('admin');
